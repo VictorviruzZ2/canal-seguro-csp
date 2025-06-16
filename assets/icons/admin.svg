@@ -1,0 +1,11 @@
+<svg id="admin_panel_settings_black_24dp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#005ca7"/>
+      <stop offset="1" stop-color="#e91c89"/>
+    </linearGradient>
+  </defs>
+  <circle id="Elipse_63" data-name="Elipse 63" cx="1.779" cy="1.779" r="1.779" transform="translate(20.627 18.225)" fill="url(#linear-gradient)"/>
+  <path id="Trazado_664" data-name="Trazado 664" d="M18.318,17.5c-1.16,0-3.479.572-3.558,1.716a4.336,4.336,0,0,0,7.117,0C21.8,18.072,19.478,17.5,18.318,17.5Z" transform="translate(4.095 5.721)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  <path id="Trazado_665" data-name="Trazado 665" d="M27,15.944V8.232L15,3,3,8.232v7.856C3,23.352,8.12,30.152,15,31.8a14.665,14.665,0,0,0,2.56-.88A9.593,9.593,0,1,0,27,15.944ZM15.8,25.4a9.225,9.225,0,0,0,.368,2.592,10.539,10.539,0,0,1-1.168.48A13.132,13.132,0,0,1,6.2,16.088v-5.76L15,6.488l8.8,3.84v5.616A9.6,9.6,0,0,0,15.8,25.4Zm9.6,6.4a6.4,6.4,0,1,1,6.4-6.4A6.4,6.4,0,0,1,25.4,31.8Z" transform="translate(-3 -3)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>

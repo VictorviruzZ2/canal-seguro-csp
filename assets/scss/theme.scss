@@ -1,0 +1,88 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+@font-face {
+  font-family: 'Roundkey';
+  src: url('../fonts/Roundkey-Regular.ttf') format('truetype');
+}
+
+$fie-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: mat.define-palette(mat.$pink-palette, 400),
+      accent: mat.define-palette(mat.$blue-palette, 800),
+    ),
+    typography: mat.define-typography-config(
+      $font-family: 'Roundkey',
+      $headline-1: (
+        font-size: 5rem,
+        font-weight: 300,
+        line-height: 1.2,
+      ),
+      $headline-2: (
+        font-size: 4rem,
+        font-weight: 300,
+        line-height: 1.2,
+      ),
+      $headline-3: (
+        font-size: 3.5rem,
+        font-weight: 400,
+        line-height: 1.2,
+      ),
+      $headline-4: (
+        font-size: 3rem,
+        font-weight: 400,
+        line-height: 1.2,
+      ),
+      $headline-5: (
+        font-size: 2.5rem,
+        font-weight: 400,
+        line-height: 1.2,
+      ),
+      $headline-6: (
+        font-size: 2rem,
+        font-weight: 500,
+        line-height: 1.2,
+      ),
+      $subtitle-1: (
+        font-size: 1.5rem,
+        font-weight: 400,
+        line-height: 1.5,
+      ),
+      $subtitle-2: (
+        font-size: 1.25rem,
+        font-weight: 500,
+        line-height: 1.5,
+      ),
+      $body-1: (
+        font-size: 1rem,
+        font-weight: 400,
+        line-height: 1.5,
+      ),
+      $body-2: (
+        font-size: 0.875rem,
+        font-weight: 400,
+        line-height: 1.5,
+      ),
+      $caption: (
+        font-size: 0.75rem,
+        font-weight: 400,
+        line-height: 1.5,
+      ),
+      $button: (
+        font-size: 1rem,
+        font-weight: 500,
+        line-height: 1.5,
+      ),
+      $overline: (
+        font-size: 0.75rem,
+        font-weight: 400,
+        line-height: 2,
+      )
+    ),
+    density: 0
+  )
+);
+
+@include mat.all-component-themes($fie-theme);
